@@ -80,21 +80,7 @@ JSON.stringify():将json对象转换成json字符串；
 JSON.parse():将json字符串转成json对象。
 
 
-com.alibaba.fastjson和net.sf.json的区别
-org.json/net.sf.json/com.google.gson/com.alibaba.fastjson
-链接：https://www.cnblogs.com/hyblogs/p/10432471.html
-FastJson、Jackson、Gson、Json的效率简单对比
-链接：https://www.2cto.com/kf/201707/660023.html
 
-
-net.sf.json
-要使程序可以运行必须引入JSON-lib包，JSON-lib包同时依赖于以下的JAR包：
-commons-lang.jar
-commons-beanutils.jar
-commons-collections.jar
-commons-logging.jar 
-ezmorph.jar
-json-lib-2.2.2-jdk15.jar
     
 **本地Demo项目上传到GitHub**
 
@@ -107,6 +93,7 @@ json-lib-2.2.2-jdk15.jar
 4、Https方式上传
 
 Demo文件夹右击选择Git Bash Here。输入git指令
+
     git init
     git add .
     git remote add origin https地址
